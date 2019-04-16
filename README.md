@@ -10,9 +10,15 @@ Triple encryption program based on RC4A_Spritz, SHA-384 and SHA-256.
 
 # Files included
 - Cipher folder: 
-    - Contains cipher programs and their dependencies
-- Main.c
-- Colors.h
-- Core.h
+    - Basic_Function.c
+    - RC4A_Spritz.c
+
+- Header folder:
+    - Colors.h
+    - Core.h
+    
+- Main folder:
+    - Main.c
+
 - Makefile
 - Output.png
