@@ -59,7 +59,7 @@ unsigned char *swap_character (unsigned char *text)
 	return result;
 }
 
-char *salt () {
+char *salt () { // Use to salt the clear message
 	unsigned char *string = malloc(sizeof(unsigned char) * 4);
 	assert (string != 0);
 	srand(time(0));
