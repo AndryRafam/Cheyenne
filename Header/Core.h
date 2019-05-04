@@ -13,6 +13,8 @@ void PRG (unsigned char S1[256], unsigned char S2[256], unsigned char *plaintext
 
 void OUROBOROS_Encrypt (unsigned char *plaintext, unsigned char *key, unsigned char *ciphertext);
 
+char *salt();
+
 unsigned char *OUROBOROS_Key();
 
 
