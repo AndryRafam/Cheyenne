@@ -59,6 +59,25 @@ unsigned char *swap_character (unsigned char *text)
 	return result;
 }
 
+char *salt () {
+	unsigned char *string = malloc(sizeof(unsigned char) * 4);
+	assert (string != 0);
+	srand(time(0));
+	int i = 0;
+
+	while (i < 8) {
+		int random = rand() % 2;
+		int key = rand() % 26;
+
+		if (random == 0)
+			string[i] = (char)((key-65) % 26 + 65);
+		else if (random == 1)
+			string[i] = (char)((key-97) % 26 + 97);
+		i += 1;
+	}
+	return string;
+}
+
 
 	
 
