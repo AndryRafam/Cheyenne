@@ -25,7 +25,7 @@ int main(int argc, char **argv)
 	
 	system("clear");
 
-	printf(Red "\n\n=================== OUROBOROS ENCRYPTION PROGRAM, Andry Rafam ====================\n\n" Reset);
+	printf(Red "\n\n=================== CHEYENNE ENCRYPTION PROGRAM, Andry Rafam ====================\n\n" Reset);
 	
 	fprintf(stdout, "[ CLEAR MESSAGE ] -> %s\n\n", argv[1]);
 	
