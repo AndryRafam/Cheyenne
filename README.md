@@ -1,3 +1,7 @@
+# Cherokee
+
+![Output](https://github.com/AndryRafam/Program-Output/blob/master/Cherokee.gif)
+
 Triple encryption program based on RC4A_Spritz, SHA-384 and SHA-256. The program also goes with a salt function; which adds some extra bits after the clear message, in order to reduce the risk collision.
 - PROGRAM UNDER GPL-3.0 LICENSEE
 
